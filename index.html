@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematik Bulmaca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game">
+
+        <header>
+            <div class="level">
+                SEVİYE <span id="level">1</span>
+            </div>
+
+            <div class="score">
+                ⭐ <span id="score">0</span>
+            </div>
+        </header>
+
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+
+        <main>
+
+            <div class="question-card">
+                <div class="question-label">
+                    SORUYU ÇÖZ
+                </div>
+
+                <div id="question" class="question">
+                    8 + 4 = ?
+                </div>
+            </div>
+
+            <div id="answers" class="answers">
+
+                <button class="answer">10</button>
+                <button class="answer">12</button>
+                <button class="answer">14</button>
+                <button class="answer">16</button>
+
+            </div>
+
+            <div class="bottom">
+
+                <div class="timer">
+                    ⏱️ <span id="timer">15</span>
+                </div>
+
+                <div class="streak">
+                    🔥 Seri: <span id="streak">0</span>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
